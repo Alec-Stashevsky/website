@@ -24,7 +24,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">blocklength</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.2.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.2.2</span>
       </span>
     </div>
 
@@ -40,6 +40,24 @@
   </a>
   <ul class="dropdown-menu" role="menu"><li>
       <a href="../articles/tuning-parameters.html">Tuning Block-Length Selection Methods</a>
+    </li>
+  </ul></li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    News
+
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu"><li class="dropdown-header">Releases</li>
+    <li>
+      <a href="https://alecstashevsky.com/post/blocklength-0.2.0/" class="external-link">blocklength 0.2.0</a>
+    </li>
+    <li>
+      <a href="https://alecstashevsky.com/post/blocklength-0.1.4/" class="external-link">blocklength 0.1.4</a>
+    </li>
+    <li class="divider">
+    <li>
+      <a href="../news/index.html">Changelog</a>
     </li>
   </ul></li>
 <li>
@@ -163,10 +181,13 @@ zero (default is <code>1e-8</code>).</p></dd>
 <dd><p>The point estimates of the statistic for each
    deletion block in the JAB variance estimation. Used for diagnostic plots</p></dd>
 
-   <dt>l</dt>
+  <dt>jab_pseudo_values</dt>
+<dd><p>The pseudo-values of each JAB point value.</p></dd>
+
+  <dt>l</dt>
 <dd><p>The initial block size used for bias estimation.</p></dd>
 
-   <dt>m</dt>
+  <dt>m</dt>
 <dd><p>The number of blocks to delete in the JAB variance estimation.</p></dd>
 
 
@@ -208,12 +229,15 @@ zero (default is <code>1e-8</code>).</p></dd>
 <span class="r-in"><span><span class="va">result</span> <span class="op">&lt;-</span> <span class="fu">nppi</span><span class="op">(</span>data <span class="op">=</span> <span class="va">sim</span>, stat_function <span class="op">=</span> <span class="va">mean</span>, num_bootstrap <span class="op">=</span> <span class="fl">500</span>, m <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span>  Setting l to recomended value: 3</span>
 <span class="r-plt img"><img src="nppi-1.png" alt="" width="700" height="433"></span>
+<span class="r-plt img"><img src="nppi-2.png" alt="" width="700" height="433"></span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="va">result</span><span class="op">$</span><span class="va">optimal_block_length</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.0001767721</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4.583894e-06</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Use S3 method to plot JAB diagnostic</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">result</span><span class="op">)</span></span></span>
+<span class="r-plt img"><img src="nppi-3.png" alt="" width="700" height="433"></span>
+<span class="r-plt img"><img src="nppi-4.png" alt="" width="700" height="433"></span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
