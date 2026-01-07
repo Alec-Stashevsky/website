@@ -33,7 +33,7 @@ experience:
   date_end: "2026-01-16"
   description: |-
     Engineering Manager and technical leader responsible for content ranking and discovery across all surfaces on Fetch. 
-    <br> <br> Leading four teams responsible for Core Ranking, Ranking Systems, ML Platform Engineering, and Measurement.
+    <br> <br> Leading teams responsible for Core Ranking, Ranking Systems, ML Platform Engineering, and Measurement.
   location: Los Angeles
   title: Engineering Manager, Relevance and Personalization
 
