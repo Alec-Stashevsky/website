@@ -30,6 +30,7 @@ experience:
   company_url: "https://www.fetch.com/"
   company_logo: fetch
   date_start: "2024-10-22"
+  date_end: "2026-01-16"
   description: |-
     Engineering Manager and technical leader responsible for content ranking and discovery across all surfaces on Fetch. 
     <br> <br> Leading four teams responsible for Core Ranking, Ranking Systems, ML Platform Engineering, and Measurement.
@@ -42,11 +43,11 @@ experience:
   date_start: "2022-10-22"
   date_end: "2024-10-22"
   description: |-
-    Tech Lead Manager for core Document AI. We build ML/AI to power the Fetch app. Our systems extract information from +10 million receipts in real-time every day, and process over $150 billion in gross merchandise volume annually, and equivalent to the third largest retailer in the United States. 
+    Technical Lead and Engineering Manager for core Document AI. We build ML/AI to power the Fetch app. Our systems extract information from +10 million receipts in real-time every day, and process over $150 billion in gross merchandise volume annually, and equivalent to the third largest retailer in the United States. 
     <br> <br> We build and deploy solutions touching computer vision, natural language processing, graph machine learning, semantic search, and entity resolution. 
     <br> <br> Lead partnerships with open-source and academic communities including Stanford University, Hugging Face, PyTorch, PyTorch Geometric, AWS SageMaker, and Streamlit.
   location: Los Angeles
-  title: Tech Lead Manager, Core Machine Learning
+  title: Engineering Manager, Core Machine Learning
 
 - company: Fetch
   company_url: "https://www.fetch.com/"
