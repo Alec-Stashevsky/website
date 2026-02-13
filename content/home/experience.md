@@ -26,6 +26,15 @@ date_format: Jan 2006
 
 
 experience:
+- company: Meta
+  company_url: "https://business.meta.com/"
+  company_logo: meta
+  date_start: "2026-02-09"
+  description: |-
+    Foundational ML/AI advancement for Ads Retrieval and Ranking
+  location: San Francisco Bay Area
+  title: Engineering Manager, Machine Learning
+  
 - company: Fetch
   company_url: "https://www.fetch.com/"
   company_logo: fetch

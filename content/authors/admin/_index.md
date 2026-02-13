@@ -10,8 +10,8 @@ role:
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Fetch
-  url: "https://fetch.com"
+- name: Meta
+  url: "https://business.meta.com/"
 - name: GAP Climate Committee
   url: "https://ourgap.org"
 - name: Reed College
@@ -78,6 +78,6 @@ email: ""
 highlight_name: false
 ---
 
-Technical leader with a track record of shipping machine learning / AI solutions at scale.  I love building things people use, and I'm passionate about interdisciplinary research and application. Currently, I am leading teams working at the crux of computer vision, natural language understanding, and graph machine learning. 
+Technical leader with a track record of shipping machine learning / AI solutions at scale.  I love building things people use, and I'm passionate about interdisciplinary research and application. Currently, I am leading teams advancing state of the art ML/AI for Ads retrieval and ranking. 
 
 When I am not thinking about graphs and transformers you can find me snapping shots on my {{% staticref "uploads/about/sunset.jpg" "newtab" %}}Yashica T4 Super D{{% /staticref %}}, hiking, and {{% staticref "uploads/about/pottery.jpg" "newtab" %}}making pottery{{% /staticref %}}.
